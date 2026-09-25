@@ -1,0 +1,68 @@
+[
+  {
+    "label": "35 anos, sem fatores: 0, risco muito baixo",
+    "input": {
+      "idade": "0"
+    },
+    "expected": {
+      "score": 0,
+      "level": "low",
+      "verdict": "muito baixo"
+    },
+    "originalInput": {
+      "idade": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "45 anos, cirurgia menor: 2, risco baixo",
+    "input": {
+      "idade": "1",
+      "cir_menor": true
+    },
+    "expected": {
+      "score": 2,
+      "level": "low",
+      "verdict": "baixo"
+    },
+    "originalInput": {
+      "idade": "1",
+      "cir_menor": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+    "input": {
+      "idade": "2",
+      "cir_maior": true
+    },
+    "expected": {
+      "score": 4,
+      "level": "mid"
+    },
+    "originalInput": {
+      "idade": "2",
+      "cir_maior": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+    "input": {
+      "idade": "2",
+      "cancer": true,
+      "cir_maior": true
+    },
+    "expected": {
+      "score": 6,
+      "level": "high"
+    },
+    "originalInput": {
+      "idade": "2",
+      "cancer": true,
+      "cir_maior": true
+    },
+    "expandedZeroOptions": []
+  }
+]

@@ -1,0 +1,695 @@
+{
+  "tool": {
+    "id": "caprini",
+    "title": "Escore de Caprini",
+    "short": "Risco de tromboembolismo venoso em cirurgia",
+    "desc": "Calculadora do escore de Caprini: risco de tromboembolismo venoso em pacientes cirúrgicos e profilaxia sugerida pela diretriz ACCP 2012.",
+    "lead": "Soma fatores de risco do paciente e da cirurgia para estimar o risco de tromboembolismo venoso pós-operatório e escolher a profilaxia.",
+    "spec": [
+      "cirurgia-vascular",
+      "angiologia",
+      "cirurgia-geral",
+      "hematologia-e-hemoterapia",
+      "cirurgia-do-aparelho-digestivo"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "idade",
+        "Idade",
+        "radio",
+        {
+          "opts": {
+            "0": "≤ 40 anos",
+            "1": "41 a 60",
+            "2": "61 a 74",
+            "3": "≥ 75"
+          }
+        }
+      ],
+      [
+        "cir_menor",
+        "Cirurgia menor planejada (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "cir_maior_prev",
+        "Cirurgia maior há menos de 1 mês (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "varizes",
+        "Varizes de membros inferiores (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "dii",
+        "Doença inflamatória intestinal (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "edema",
+        "Edema atual de membros inferiores (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "obesidade",
+        "IMC &gt; 25 kg/m² (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "iam",
+        "Infarto agudo do miocárdio (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "icc",
+        "Insuficiência cardíaca há menos de 1 mês (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "sepse",
+        "Sepse há menos de 1 mês (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "pulmonar",
+        "Doença pulmonar grave, incluindo pneumonia, há menos de 1 mês (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "dpoc",
+        "Função pulmonar alterada (DPOC) (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "repouso",
+        "Paciente clínico em repouso no leito (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "hormonio",
+        "Anticoncepcional oral ou reposição hormonal (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "gestacao",
+        "Gestação ou pós-parto (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "obst",
+        "Natimorto inexplicado, ≥ 3 abortos espontâneos ou parto prematuro com toxemia ou restrição de crescimento (1)",
+        "chk",
+        {
+          "pts": 1
+        }
+      ],
+      [
+        "artroscopia",
+        "Cirurgia artroscópica (2)",
+        "chk",
+        {
+          "pts": 2
+        }
+      ],
+      [
+        "cancer",
+        "Neoplasia maligna atual ou prévia (2)",
+        "chk",
+        {
+          "pts": 2
+        }
+      ],
+      [
+        "cir_maior",
+        "Cirurgia aberta de grande porte (&gt; 45 min) (2)",
+        "chk",
+        {
+          "pts": 2
+        }
+      ],
+      [
+        "laparoscopia",
+        "Cirurgia laparoscópica (&gt; 45 min) (2)",
+        "chk",
+        {
+          "pts": 2
+        }
+      ],
+      [
+        "acamado",
+        "Restrito ao leito (&gt; 72 h) (2)",
+        "chk",
+        {
+          "pts": 2
+        }
+      ],
+      [
+        "gesso",
+        "Imobilização gessada há menos de 1 mês (2)",
+        "chk",
+        {
+          "pts": 2
+        }
+      ],
+      [
+        "cvc",
+        "Acesso venoso central (2)",
+        "chk",
+        {
+          "pts": 2
+        }
+      ],
+      [
+        "tev_prev",
+        "TVP ou TEP prévio (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "hf_trombose",
+        "História familiar de trombose (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "fvl",
+        "Fator V de Leiden (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "protrombina",
+        "Mutação da protrombina 20210A (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "lupico",
+        "Anticoagulante lúpico (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "anticardiolipina",
+        "Anticorpos anticardiolipina elevados (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "homocisteina",
+        "Homocisteína sérica elevada (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "hit",
+        "Trombocitopenia induzida por heparina (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "trombofilia",
+        "Outra trombofilia congênita ou adquirida (3)",
+        "chk",
+        {
+          "pts": 3
+        }
+      ],
+      [
+        "artroplastia",
+        "Artroplastia eletiva de quadril ou joelho (5)",
+        "chk",
+        {
+          "pts": 5
+        }
+      ],
+      [
+        "fratura",
+        "Fratura de quadril, pelve ou perna há menos de 1 mês (5)",
+        "chk",
+        {
+          "pts": 5
+        }
+      ],
+      [
+        "avc",
+        "AVC há menos de 1 mês (5)",
+        "chk",
+        {
+          "pts": 5
+        }
+      ],
+      [
+        "politrauma",
+        "Politrauma há menos de 1 mês (5)",
+        "chk",
+        {
+          "pts": 5
+        }
+      ],
+      [
+        "medular",
+        "Lesão medular aguda com paralisia há menos de 1 mês (5)",
+        "chk",
+        {
+          "pts": 5
+        }
+      ]
+    ],
+    "score": {
+      "label": "Escore de Caprini",
+      "bands": [
+        [
+          0,
+          "low",
+          "Risco muito baixo de TEV (&lt; 0,5%)",
+          "Deambulação precoce; sem profilaxia farmacológica ou mecânica específica."
+        ],
+        [
+          1,
+          "low",
+          "Risco baixo de TEV (~1,5%)",
+          "Profilaxia mecânica, de preferência compressão pneumática intermitente."
+        ],
+        [
+          3,
+          "mid",
+          "Risco moderado de TEV (~3,0%)",
+          "HBPM ou heparina não fracionada em dose baixa; profilaxia mecânica se o risco de sangramento for alto."
+        ],
+        [
+          5,
+          "high",
+          "Risco alto de TEV (~6,0%)",
+          "HBPM ou heparina não fracionada em dose baixa associada a profilaxia mecânica (meias ou compressão pneumática)."
+        ]
+      ]
+    },
+    "formula": "<p>Soma dos pontos de cada fator: 1 ponto (idade 41–60, cirurgia menor, obesidade, varizes, condições clínicas recentes, hormônios, gestação), 2 pontos (idade 61–74, câncer, cirurgia maior ou laparoscópica &gt; 45 min, acamado &gt; 72 h, gesso, acesso central), 3 pontos (idade ≥ 75, TEV prévio, história familiar, trombofilias) e 5 pontos (artroplastia, fratura de quadril/pelve/perna, AVC, politrauma, lesão medular).</p>",
+    "table": [
+      [
+        "Pontos",
+        "Risco de TEV sem profilaxia",
+        "Profilaxia sugerida (ACCP 2012)"
+      ],
+      [
+        "0",
+        "Muito baixo (&lt; 0,5%)",
+        "Deambulação precoce"
+      ],
+      [
+        "1–2",
+        "Baixo (~1,5%)",
+        "Mecânica (compressão pneumática)"
+      ],
+      [
+        "3–4",
+        "Moderado (~3,0%)",
+        "HBPM ou HNF em dose baixa (ou mecânica se sangramento)"
+      ],
+      [
+        "≥ 5",
+        "Alto (~6,0%)",
+        "Farmacológica + mecânica"
+      ]
+    ],
+    "table_note": "Categorias da diretriz ACCP 2012 para cirurgia geral, abdominal e pélvica (não ortopédica).",
+    "tips": [
+      "As categorias da ACCP 2012 valem para cirurgia geral e abdominopélvica; artroplastia e fratura de quadril têm recomendações próprias (profilaxia farmacológica por 10 a 35 dias).",
+      "Em cirurgia oncológica abdominal ou pélvica de grande porte, considere estender a HBPM por 4 semanas.",
+      "Avalie o risco de sangramento antes de prescrever: se alto, use profilaxia mecânica e reintroduza a farmacológica quando for seguro.",
+      "Cada trombofilia soma 3 pontos separadamente; marque todas as presentes.",
+      "Reavalie o escore se o paciente mudar de condição (reoperação, sepse, imobilização prolongada)."
+    ],
+    "sources": [
+      [
+        "Caprini JA. Thrombosis risk assessment as a guide to quality patient care. Dis Mon, 2005.",
+        "https://doi.org/10.1016/j.disamonth.2005.02.003"
+      ],
+      [
+        "Gould MK et al. Prevention of VTE in nonorthopedic surgical patients: antithrombotic therapy and prevention of thrombosis, 9th ed: American College of Chest Physicians evidence-based clinical practice guidelines. Chest, 2012.",
+        "https://doi.org/10.1378/chest.11-2297"
+      ],
+      [
+        "Bahl V et al. A validation study of a retrospective venous thromboembolism risk scoring method. Ann Surg, 2010.",
+        "https://doi.org/10.1097/SLA.0b013e3181b7fca6"
+      ]
+    ],
+    "cases": [
+      [
+        "35 anos, sem fatores: 0, risco muito baixo",
+        {
+          "idade": "0"
+        },
+        {
+          "score": 0,
+          "level": "low",
+          "verdict": "muito baixo"
+        }
+      ],
+      [
+        "45 anos, cirurgia menor: 2, risco baixo",
+        {
+          "idade": "1",
+          "cir_menor": true
+        },
+        {
+          "score": 2,
+          "level": "low",
+          "verdict": "baixo"
+        }
+      ],
+      [
+        "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        {
+          "idade": "2",
+          "cir_maior": true
+        },
+        {
+          "score": 4,
+          "level": "mid"
+        }
+      ],
+      [
+        "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        {
+          "idade": "2",
+          "cancer": true,
+          "cir_maior": true
+        },
+        {
+          "score": 6,
+          "level": "high"
+        }
+      ]
+    ],
+    "batch": "torax-vascular",
+    "kind": "Escore",
+    "config": {
+      "unit": "",
+      "label": "Escore de Caprini",
+      "fields": [
+        [
+          "idade",
+          "radio",
+          0
+        ],
+        [
+          "cir_menor",
+          "chk",
+          1
+        ],
+        [
+          "cir_maior_prev",
+          "chk",
+          1
+        ],
+        [
+          "varizes",
+          "chk",
+          1
+        ],
+        [
+          "dii",
+          "chk",
+          1
+        ],
+        [
+          "edema",
+          "chk",
+          1
+        ],
+        [
+          "obesidade",
+          "chk",
+          1
+        ],
+        [
+          "iam",
+          "chk",
+          1
+        ],
+        [
+          "icc",
+          "chk",
+          1
+        ],
+        [
+          "sepse",
+          "chk",
+          1
+        ],
+        [
+          "pulmonar",
+          "chk",
+          1
+        ],
+        [
+          "dpoc",
+          "chk",
+          1
+        ],
+        [
+          "repouso",
+          "chk",
+          1
+        ],
+        [
+          "hormonio",
+          "chk",
+          1
+        ],
+        [
+          "gestacao",
+          "chk",
+          1
+        ],
+        [
+          "obst",
+          "chk",
+          1
+        ],
+        [
+          "artroscopia",
+          "chk",
+          2
+        ],
+        [
+          "cancer",
+          "chk",
+          2
+        ],
+        [
+          "cir_maior",
+          "chk",
+          2
+        ],
+        [
+          "laparoscopia",
+          "chk",
+          2
+        ],
+        [
+          "acamado",
+          "chk",
+          2
+        ],
+        [
+          "gesso",
+          "chk",
+          2
+        ],
+        [
+          "cvc",
+          "chk",
+          2
+        ],
+        [
+          "tev_prev",
+          "chk",
+          3
+        ],
+        [
+          "hf_trombose",
+          "chk",
+          3
+        ],
+        [
+          "fvl",
+          "chk",
+          3
+        ],
+        [
+          "protrombina",
+          "chk",
+          3
+        ],
+        [
+          "lupico",
+          "chk",
+          3
+        ],
+        [
+          "anticardiolipina",
+          "chk",
+          3
+        ],
+        [
+          "homocisteina",
+          "chk",
+          3
+        ],
+        [
+          "hit",
+          "chk",
+          3
+        ],
+        [
+          "trombofilia",
+          "chk",
+          3
+        ],
+        [
+          "artroplastia",
+          "chk",
+          5
+        ],
+        [
+          "fratura",
+          "chk",
+          5
+        ],
+        [
+          "avc",
+          "chk",
+          5
+        ],
+        [
+          "politrauma",
+          "chk",
+          5
+        ],
+        [
+          "medular",
+          "chk",
+          5
+        ]
+      ],
+      "bands": [
+        [
+          0,
+          "low",
+          "Risco muito baixo de TEV (&lt; 0,5%)",
+          "Deambulação precoce; sem profilaxia farmacológica ou mecânica específica."
+        ],
+        [
+          1,
+          "low",
+          "Risco baixo de TEV (~1,5%)",
+          "Profilaxia mecânica, de preferência compressão pneumática intermitente."
+        ],
+        [
+          3,
+          "mid",
+          "Risco moderado de TEV (~3,0%)",
+          "HBPM ou heparina não fracionada em dose baixa; profilaxia mecânica se o risco de sangramento for alto."
+        ],
+        [
+          5,
+          "high",
+          "Risco alto de TEV (~6,0%)",
+          "HBPM ou heparina não fracionada em dose baixa associada a profilaxia mecânica (meias ou compressão pneumática)."
+        ]
+      ]
+    },
+    "areaId": "cardiotoracica",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/torax-vascular.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/torax-vascular.php",
+    "sha256": "e99bbd1938580ff9b46e0252fdd8cb72e87c63869f934005b8ef6d807ce8b6e2",
+    "bytes": 91275
+  },
+  "clinicalValidation": "not-performed"
+}
