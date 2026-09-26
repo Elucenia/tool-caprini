@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-caprini",
   "version": "0.1.0",
-  "description": "Escore de Caprini · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Escore de Caprini · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
