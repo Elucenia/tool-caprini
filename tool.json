@@ -5,6 +5,7 @@
     "short": "Risco de tromboembolismo venoso em cirurgia",
     "desc": "Calculadora do escore de Caprini: risco de tromboembolismo venoso em pacientes cirúrgicos e profilaxia sugerida pela diretriz ACCP 2012.",
     "lead": "Soma fatores de risco do paciente e da cirurgia para estimar o risco de tromboembolismo venoso pós-operatório e escolher a profilaxia.",
+    "kind": "Escore",
     "spec": [
       "cirurgia-vascular",
       "angiologia",
@@ -12,7 +13,6 @@
       "hematologia-e-hemoterapia",
       "cirurgia-do-aparelho-digestivo"
     ],
-    "tier": 1,
     "fields": [
       [
         "idade",
@@ -31,356 +31,220 @@
         "cir_menor",
         "Cirurgia menor planejada (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "cir_maior_prev",
         "Cirurgia maior há menos de 1 mês (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "varizes",
         "Varizes de membros inferiores (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "dii",
         "Doença inflamatória intestinal (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "edema",
         "Edema atual de membros inferiores (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "obesidade",
         "IMC &gt; 25 kg/m² (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "iam",
         "Infarto agudo do miocárdio (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "icc",
         "Insuficiência cardíaca há menos de 1 mês (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "sepse",
         "Sepse há menos de 1 mês (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "pulmonar",
         "Doença pulmonar grave, incluindo pneumonia, há menos de 1 mês (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "dpoc",
         "Função pulmonar alterada (DPOC) (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "repouso",
         "Paciente clínico em repouso no leito (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "hormonio",
         "Anticoncepcional oral ou reposição hormonal (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "gestacao",
         "Gestação ou pós-parto (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "obst",
         "Natimorto inexplicado, ≥ 3 abortos espontâneos ou parto prematuro com toxemia ou restrição de crescimento (1)",
         "chk",
-        {
-          "pts": 1
-        }
+        {}
       ],
       [
         "artroscopia",
         "Cirurgia artroscópica (2)",
         "chk",
-        {
-          "pts": 2
-        }
+        {}
       ],
       [
         "cancer",
         "Neoplasia maligna atual ou prévia (2)",
         "chk",
-        {
-          "pts": 2
-        }
+        {}
       ],
       [
         "cir_maior",
         "Cirurgia aberta de grande porte (&gt; 45 min) (2)",
         "chk",
-        {
-          "pts": 2
-        }
+        {}
       ],
       [
         "laparoscopia",
         "Cirurgia laparoscópica (&gt; 45 min) (2)",
         "chk",
-        {
-          "pts": 2
-        }
+        {}
       ],
       [
         "acamado",
         "Restrito ao leito (&gt; 72 h) (2)",
         "chk",
-        {
-          "pts": 2
-        }
+        {}
       ],
       [
         "gesso",
         "Imobilização gessada há menos de 1 mês (2)",
         "chk",
-        {
-          "pts": 2
-        }
+        {}
       ],
       [
         "cvc",
         "Acesso venoso central (2)",
         "chk",
-        {
-          "pts": 2
-        }
+        {}
       ],
       [
         "tev_prev",
         "TVP ou TEP prévio (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "hf_trombose",
         "História familiar de trombose (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "fvl",
         "Fator V de Leiden (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "protrombina",
         "Mutação da protrombina 20210A (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "lupico",
         "Anticoagulante lúpico (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "anticardiolipina",
         "Anticorpos anticardiolipina elevados (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "homocisteina",
         "Homocisteína sérica elevada (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "hit",
         "Trombocitopenia induzida por heparina (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "trombofilia",
         "Outra trombofilia congênita ou adquirida (3)",
         "chk",
-        {
-          "pts": 3
-        }
+        {}
       ],
       [
         "artroplastia",
         "Artroplastia eletiva de quadril ou joelho (5)",
         "chk",
-        {
-          "pts": 5
-        }
+        {}
       ],
       [
         "fratura",
         "Fratura de quadril, pelve ou perna há menos de 1 mês (5)",
         "chk",
-        {
-          "pts": 5
-        }
+        {}
       ],
       [
         "avc",
         "AVC há menos de 1 mês (5)",
         "chk",
-        {
-          "pts": 5
-        }
+        {}
       ],
       [
         "politrauma",
         "Politrauma há menos de 1 mês (5)",
         "chk",
-        {
-          "pts": 5
-        }
+        {}
       ],
       [
         "medular",
         "Lesão medular aguda com paralisia há menos de 1 mês (5)",
         "chk",
-        {
-          "pts": 5
-        }
+        {}
       ]
     ],
-    "score": {
-      "label": "Escore de Caprini",
-      "bands": [
-        [
-          0,
-          "low",
-          "Risco muito baixo de TEV (&lt; 0,5%)",
-          "Deambulação precoce; sem profilaxia farmacológica ou mecânica específica."
-        ],
-        [
-          1,
-          "low",
-          "Risco baixo de TEV (~1,5%)",
-          "Profilaxia mecânica, de preferência compressão pneumática intermitente."
-        ],
-        [
-          3,
-          "mid",
-          "Risco moderado de TEV (~3,0%)",
-          "HBPM ou heparina não fracionada em dose baixa; profilaxia mecânica se o risco de sangramento for alto."
-        ],
-        [
-          5,
-          "high",
-          "Risco alto de TEV (~6,0%)",
-          "HBPM ou heparina não fracionada em dose baixa associada a profilaxia mecânica (meias ou compressão pneumática)."
-        ]
-      ]
-    },
     "formula": "<p>Soma dos pontos de cada fator: 1 ponto (idade 41–60, cirurgia menor, obesidade, varizes, condições clínicas recentes, hormônios, gestação), 2 pontos (idade 61–74, câncer, cirurgia maior ou laparoscópica &gt; 45 min, acamado &gt; 72 h, gesso, acesso central), 3 pontos (idade ≥ 75, TEV prévio, história familiar, trombofilias) e 5 pontos (artroplastia, fratura de quadril/pelve/perna, AVC, politrauma, lesão medular).</p>",
-    "table": [
-      [
-        "Pontos",
-        "Risco de TEV sem profilaxia",
-        "Profilaxia sugerida (ACCP 2012)"
-      ],
-      [
-        "0",
-        "Muito baixo (&lt; 0,5%)",
-        "Deambulação precoce"
-      ],
-      [
-        "1–2",
-        "Baixo (~1,5%)",
-        "Mecânica (compressão pneumática)"
-      ],
-      [
-        "3–4",
-        "Moderado (~3,0%)",
-        "HBPM ou HNF em dose baixa (ou mecânica se sangramento)"
-      ],
-      [
-        "≥ 5",
-        "Alto (~6,0%)",
-        "Farmacológica + mecânica"
-      ]
-    ],
-    "table_note": "Categorias da diretriz ACCP 2012 para cirurgia geral, abdominal e pélvica (não ortopédica).",
-    "tips": [
-      "As categorias da ACCP 2012 valem para cirurgia geral e abdominopélvica; artroplastia e fratura de quadril têm recomendações próprias (profilaxia farmacológica por 10 a 35 dias).",
-      "Em cirurgia oncológica abdominal ou pélvica de grande porte, considere estender a HBPM por 4 semanas.",
-      "Avalie o risco de sangramento antes de prescrever: se alto, use profilaxia mecânica e reintroduza a farmacológica quando for seguro.",
-      "Cada trombofilia soma 3 pontos separadamente; marque todas as presentes.",
-      "Reavalie o escore se o paciente mudar de condição (reoperação, sepse, imobilização prolongada)."
-    ],
     "sources": [
       [
         "Caprini JA. Thrombosis risk assessment as a guide to quality patient care. Dis Mon, 2005.",
@@ -393,6 +257,10 @@
       [
         "Bahl V et al. A validation study of a retrospective venous thromboembolism risk scoring method. Ann Surg, 2010.",
         "https://doi.org/10.1097/SLA.0b013e3181b7fca6"
+      ],
+      [
+        "ACCP2012,nonorthopedic surgical patients",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3278061/"
       ]
     ],
     "cases": [
@@ -443,225 +311,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "",
-      "label": "Escore de Caprini",
-      "fields": [
-        [
-          "idade",
-          "radio",
-          0
-        ],
-        [
-          "cir_menor",
-          "chk",
-          1
-        ],
-        [
-          "cir_maior_prev",
-          "chk",
-          1
-        ],
-        [
-          "varizes",
-          "chk",
-          1
-        ],
-        [
-          "dii",
-          "chk",
-          1
-        ],
-        [
-          "edema",
-          "chk",
-          1
-        ],
-        [
-          "obesidade",
-          "chk",
-          1
-        ],
-        [
-          "iam",
-          "chk",
-          1
-        ],
-        [
-          "icc",
-          "chk",
-          1
-        ],
-        [
-          "sepse",
-          "chk",
-          1
-        ],
-        [
-          "pulmonar",
-          "chk",
-          1
-        ],
-        [
-          "dpoc",
-          "chk",
-          1
-        ],
-        [
-          "repouso",
-          "chk",
-          1
-        ],
-        [
-          "hormonio",
-          "chk",
-          1
-        ],
-        [
-          "gestacao",
-          "chk",
-          1
-        ],
-        [
-          "obst",
-          "chk",
-          1
-        ],
-        [
-          "artroscopia",
-          "chk",
-          2
-        ],
-        [
-          "cancer",
-          "chk",
-          2
-        ],
-        [
-          "cir_maior",
-          "chk",
-          2
-        ],
-        [
-          "laparoscopia",
-          "chk",
-          2
-        ],
-        [
-          "acamado",
-          "chk",
-          2
-        ],
-        [
-          "gesso",
-          "chk",
-          2
-        ],
-        [
-          "cvc",
-          "chk",
-          2
-        ],
-        [
-          "tev_prev",
-          "chk",
-          3
-        ],
-        [
-          "hf_trombose",
-          "chk",
-          3
-        ],
-        [
-          "fvl",
-          "chk",
-          3
-        ],
-        [
-          "protrombina",
-          "chk",
-          3
-        ],
-        [
-          "lupico",
-          "chk",
-          3
-        ],
-        [
-          "anticardiolipina",
-          "chk",
-          3
-        ],
-        [
-          "homocisteina",
-          "chk",
-          3
-        ],
-        [
-          "hit",
-          "chk",
-          3
-        ],
-        [
-          "trombofilia",
-          "chk",
-          3
-        ],
-        [
-          "artroplastia",
-          "chk",
-          5
-        ],
-        [
-          "fratura",
-          "chk",
-          5
-        ],
-        [
-          "avc",
-          "chk",
-          5
-        ],
-        [
-          "politrauma",
-          "chk",
-          5
-        ],
-        [
-          "medular",
-          "chk",
-          5
-        ]
-      ],
-      "bands": [
-        [
-          0,
-          "low",
-          "Risco muito baixo de TEV (&lt; 0,5%)",
-          "Deambulação precoce; sem profilaxia farmacológica ou mecânica específica."
-        ],
-        [
-          1,
-          "low",
-          "Risco baixo de TEV (~1,5%)",
-          "Profilaxia mecânica, de preferência compressão pneumática intermitente."
-        ],
-        [
-          3,
-          "mid",
-          "Risco moderado de TEV (~3,0%)",
-          "HBPM ou heparina não fracionada em dose baixa; profilaxia mecânica se o risco de sangramento for alto."
-        ],
-        [
-          5,
-          "high",
-          "Risco alto de TEV (~6,0%)",
-          "HBPM ou heparina não fracionada em dose baixa associada a profilaxia mecânica (meias ou compressão pneumática)."
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -670,17 +319,700 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T21:26:07.453Z",
+      "total": 191,
+      "passed": 191,
+      "sourceRowCount": 191,
+      "uniqueApiInputCount": 191,
+      "sourceContextCount": 191,
+      "scope": "191 selected source-assigned1/2/3/5factor plus agecode0/1/2/3 sums. Reproduced2005Figure age60 overlap versus ACCP2012 age61–74 unresolved. No clinical age-cutoff selection, risk bands, prophylaxis, bleeding/application eligibility or reuse/translation permission approval.",
+      "originalSourceRowCount": 191,
+      "excludedSourceObservationCount": 0,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "51974a2f5fabb69d7726c3804ea3069f27ca42d9994dde68844629c2bb865b76",
+        "total": 191,
+        "bankRowCount": 191,
+        "uniqueApiInputCount": 191,
+        "sourceContextCount": 191,
+        "fullStoredSourceRows": 191,
+        "excludedSourceObservationCount": 0,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/six-primary-independent-expectations-final32-r2.json",
+            "sha256": "40d11daa6028d607c2b98916adb0b4d72e009237f0a476708ee241f2b4e36d03"
+          },
+          {
+            "file": "reports/review-20261003/six-primary-source-review-final32-r2.json",
+            "sha256": "258710e6b52d932aca86f2590791a2d83b88ed066541b47bad1d2e97f67c8c66"
+          },
+          {
+            "file": "reports/review-20261003/six-primary-source-independent-review-publication-final32.json",
+            "sha256": "ec66760be8eb4ebf6aae699c3658d3e23c72fda54c159ee103cb1998fb893aa6"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/six-primary-independent-source-check-final32-r2.json",
+          "sha256": "1adfa3b80e74c8fe41067e540f5dac40043f148703f12c43b54f98edc186bf29"
+        },
+        "packagingRequirement": "All original source32rows preserved across6artifacts,3753 source-eligible cases plus256 Duke source-ineligible observations. Preserve original expectations and explicit no-approval scope."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "sourceRows": 191,
+        "uniqueApiInputs": 191,
+        "duplicateRows": 0
+      },
+      "sources": [
+        {
+          "primaryReview": {
+            "file": "reports/review-20261003/six-primary-source-review-final32-r2.json",
+            "sha256": "258710e6b52d932aca86f2590791a2d83b88ed066541b47bad1d2e97f67c8c66"
+          },
+          "independentPrimaryReview": {
+            "file": "reports/review-20261003/six-primary-source-independent-review-publication-final32.json",
+            "sha256": "ec66760be8eb4ebf6aae699c3658d3e23c72fda54c159ee103cb1998fb893aa6"
+          },
+          "targetedReading": {
+            "id": "caprini",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4505816/",
+            "additionalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3278061/",
+            "edition": "Reproduced2005 Figure1 in Pannucci primary comparison2011/2012; ACCP2012 Table7 separate edition",
+            "personallyRead": [
+              "Full captured2005Figure1 personally visually read; Pannucci Methods/figurecaption paragraphs personally read",
+              "Full original ACCP2012 HTML Table7 personally read"
+            ],
+            "files": [
+              "six-primary-documents-final32/caprini-2005-figure1-pannucci.jpg",
+              "six-primary-documents-final32/caprini-pannucci-2011-2005-model.html",
+              "six-primary-documents-final32/caprini-accp-2012-table7.html"
+            ],
+            "access": "Own PMC reopens returned captcha. Actual captured NIH Figure1/tableHTML read; original2005 entire article not obtained. Permission for article adaptation is not permission for ELUCENIA.",
+            "supported": "Assigned1/2/3/5factor sums and selected agecode0/1/2/3. Prior major surgery1/multiple trauma5 shown reproduced2005Figure, absent2012Table7.",
+            "excluded": [
+              "Reproduced2005Figure prints41–60/60–74 age60 overlap; ACCP2012 prints41–60/61–74, not silently adjudicated",
+              "Risk/prophylaxis/treatment/clinical eligibility or observation",
+              "2012erratum/full recommendations, instrument/translation reuse permission"
+            ],
+            "sourceArtifacts": [
+              {
+                "file": "six-primary-documents-final32/caprini-2005-figure1-pannucci.jpg",
+                "bytes": 70784,
+                "sha256": "44497b838136654aae0326d99783b8b8521412ba86fba7b3ffc0c9ca180fc9f2"
+              },
+              {
+                "file": "six-primary-documents-final32/caprini-pannucci-2011-2005-model.html",
+                "bytes": 183281,
+                "sha256": "9a1a0999b63529a2062eeaec484775c511cd70d98b4aca427dd14713409e0b70"
+              },
+              {
+                "file": "six-primary-documents-final32/caprini-accp-2012-table7.html",
+                "bytes": 4286,
+                "sha256": "70b6b5084a5192a32dfd8c25859d05c9df466709915f8ca506753cf09b06835a"
+              }
+            ]
+          },
+          "declaredOriginalMethodVersion": "Caprini 2005:RAM 1/2/3/5 pontos; versão clássica cirúrgica; contexto ACCP 2012",
+          "sourceEditionsUnchanged": true,
+          "scope": "191 selected source-assigned1/2/3/5factor plus agecode0/1/2/3 sums. Reproduced2005Figure age60 overlap versus ACCP2012 age61–74 unresolved. No clinical age-cutoff selection, risk bands, prophylaxis, bleeding/application eligibility or reuse/translation permission approval."
+        }
+      ],
+      "evidencePath": "reports/review-20261003/six-primary-independent-source-check-final32-r2.json",
+      "evidenceSha256": "1adfa3b80e74c8fe41067e540f5dac40043f148703f12c43b54f98edc186bf29",
+      "independentPeer": {
+        "evidence": {
+          "file": "reports/review-20261003/six-primary-independent-peer-publication-final32.json",
+          "sha256": "cdf78c30cbcf97b22551c7177639b6480fb6ceb271ab76d0eeb1330830b356b1"
+        },
+        "status": "passed-scoped-mathematical",
+        "packagingPeer": "pending",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/caprini/calculator.js",
+          "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/caprini/calculator.js",
+          "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/caprini/calculator.js",
+          "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+        }
+      ],
+      "qualifications": [
+        "191 selected source-assigned1/2/3/5factor plus agecode0/1/2/3 sums. Reproduced2005Figure age60 overlap versus ACCP2012 age61–74 unresolved. No clinical age-cutoff selection, risk bands, prophylaxis, bleeding/application eligibility or reuse/translation permission approval.",
+        "Strict integer/boolean/source-class equality; only DAS28 continuous fields retain the original16EPS×max(1,abs reference) criterion. None of the862 historical fixture expected values or tolerances are amended.",
+        "All original4009 rows are retained across6 complete artifacts:3753 eligible numeric/predicate witnesses and256 expressly unapproved Duke surgical+imaging observations. Only3753 count toward independent source scenarios.",
+        "Original3039 failed source-check assertions and69 strict APACHE mortality parity differences remain in the immutable original report. R2repairs66 diagnosis encodings without changing expected mathematics; R2mortality87differences remain unscoped/unapproved.",
+        "Own primary-table constants and4378 expectations were persisted before any engine/Western expectation imports; own39402Node/VM/Chromium executions passed selected scope. This package stage separately replays Node/VM and binds earlier actual Chromium observations.",
+        "No diagnosis, acquisition rubric, mortality/prognostic outcome, clinical cutoff/age60 resolution, risk/prophylaxis decision, instrument/right/translation authorization, professional language or full-method conformity approval.",
+        "Prospective source28/29/30/31 recipes own other evidence leaves. Compose only declared leaves and additive helper fragments, then recompute sums/identities; do not replace whole old catalogs."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Caprini 2005:RAM 1/2/3/5 pontos; versão clássica cirúrgica; contexto ACCP 2012",
+    "implementationVersion": "caprini@native-2026-10-03+a117518727dc",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/15900257/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Soma dos pontos de cada fator: 1 ponto (idade 41–60, cirurgia menor, obesidade, varizes, condições clínicas recentes, hormônios, gestação), 2 pontos (idade 61–74, câncer, cirurgia maior ou laparoscópica > 45 min, acamado > 72 h, gesso, acesso central), 3 pontos (idade ≥ 75, TEV prévio, história familiar, trombofilias) e 5 pontos (artroplastia, fratura de quadril/pelve/perna, AVC, politrauma, lesão medular).",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "idade",
+            "label": "Idade",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "≤ 40 anos",
+              "1": "41 a 60",
+              "2": "61 a 74",
+              "3": "≥ 75"
+            }
+          },
+          {
+            "key": "cir_menor",
+            "label": "Cirurgia menor planejada (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "cir_maior_prev",
+            "label": "Cirurgia maior há menos de 1 mês (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "varizes",
+            "label": "Varizes de membros inferiores (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "dii",
+            "label": "Doença inflamatória intestinal (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "edema",
+            "label": "Edema atual de membros inferiores (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "obesidade",
+            "label": "IMC &gt; 25 kg/m² (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "iam",
+            "label": "Infarto agudo do miocárdio (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "icc",
+            "label": "Insuficiência cardíaca há menos de 1 mês (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "sepse",
+            "label": "Sepse há menos de 1 mês (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "pulmonar",
+            "label": "Doença pulmonar grave, incluindo pneumonia, há menos de 1 mês (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "dpoc",
+            "label": "Função pulmonar alterada (DPOC) (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "repouso",
+            "label": "Paciente clínico em repouso no leito (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "hormonio",
+            "label": "Anticoncepcional oral ou reposição hormonal (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "gestacao",
+            "label": "Gestação ou pós-parto (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "obst",
+            "label": "Natimorto inexplicado, ≥ 3 abortos espontâneos ou parto prematuro com toxemia ou restrição de crescimento (1)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "artroscopia",
+            "label": "Cirurgia artroscópica (2)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "cancer",
+            "label": "Neoplasia maligna atual ou prévia (2)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "cir_maior",
+            "label": "Cirurgia aberta de grande porte (&gt; 45 min) (2)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "laparoscopia",
+            "label": "Cirurgia laparoscópica (&gt; 45 min) (2)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "acamado",
+            "label": "Restrito ao leito (&gt; 72 h) (2)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "gesso",
+            "label": "Imobilização gessada há menos de 1 mês (2)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "cvc",
+            "label": "Acesso venoso central (2)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "tev_prev",
+            "label": "TVP ou TEP prévio (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "hf_trombose",
+            "label": "História familiar de trombose (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "fvl",
+            "label": "Fator V de Leiden (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "protrombina",
+            "label": "Mutação da protrombina 20210A (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "lupico",
+            "label": "Anticoagulante lúpico (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "anticardiolipina",
+            "label": "Anticorpos anticardiolipina elevados (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "homocisteina",
+            "label": "Homocisteína sérica elevada (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "hit",
+            "label": "Trombocitopenia induzida por heparina (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "trombofilia",
+            "label": "Outra trombofilia congênita ou adquirida (3)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "artroplastia",
+            "label": "Artroplastia eletiva de quadril ou joelho (5)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "fratura",
+            "label": "Fratura de quadril, pelve ou perna há menos de 1 mês (5)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "avc",
+            "label": "AVC há menos de 1 mês (5)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "politrauma",
+            "label": "Politrauma há menos de 1 mês (5)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "medular",
+            "label": "Lesão medular aguda com paralisia há menos de 1 mês (5)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          }
+        ],
+        "hash": "60c3b707fe83ec7a77e7e682d78759732dd7486bd607246b2688caeb633adc8a"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Caprini JA. Thrombosis risk assessment as a guide to quality patient care. Dis Mon, 2005.",
+          "url": "https://doi.org/10.1016/j.disamonth.2005.02.003",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Thrombosis risk assessment as a guide to quality patient care.",
+            "year": "2005",
+            "firstPublicationDate": "2005-02-01",
+            "doi": "10.1016/j.disamonth.2005.02.003",
+            "pmid": "15900257",
+            "journal": "Disease-a-month : DM",
+            "authors": "Caprini JA."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/15900257/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Gould MK et al. Prevention of VTE in nonorthopedic surgical patients: antithrombotic therapy and prevention of thrombosis, 9th ed: American College of Chest Physicians evidence-based clinical practice guidelines. Chest, 2012.",
+          "url": "https://doi.org/10.1378/chest.11-2297",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Prevention of VTE in nonorthopedic surgical patients: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines.",
+            "year": "2012",
+            "firstPublicationDate": "2012-02-01",
+            "doi": "10.1378/chest.11-2297",
+            "pmid": "22315263",
+            "pmcid": "PMC3278061",
+            "journal": "Chest",
+            "authors": "Gould MK, Garcia DA, Wren SM, Karanicolas PJ, Arcelus JI, Heit JA, Samama CM."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3278061/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "1a2d80b45eab6f87076cc900a9ac0344aea228bb3b1d740e86c0548df55a38c0",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Bahl V et al. A validation study of a retrospective venous thromboembolism risk scoring method. Ann Surg, 2010.",
+          "url": "https://doi.org/10.1097/SLA.0b013e3181b7fca6",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "A validation study of a retrospective venous thromboembolism risk scoring method.",
+            "year": "2010",
+            "firstPublicationDate": "2010-02-01",
+            "doi": "10.1097/sla.0b013e3181b7fca6",
+            "pmid": "19779324",
+            "journal": "Annals of surgery",
+            "authors": "Bahl V, Hu HM, Henke PK, Wakefield TW, Campbell DA, Caprini JA."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/19779324/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "d4dc808f15e46fe9e374111ec4f9f1665d1deeb7e64dda23ce19b810f9121e13",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T21:26:07.453Z",
+        "total": 191,
+        "passed": 191,
+        "sourceRowCount": 191,
+        "uniqueApiInputCount": 191,
+        "sourceContextCount": 191,
+        "scope": "191 selected source-assigned1/2/3/5factor plus agecode0/1/2/3 sums. Reproduced2005Figure age60 overlap versus ACCP2012 age61–74 unresolved. No clinical age-cutoff selection, risk bands, prophylaxis, bleeding/application eligibility or reuse/translation permission approval.",
+        "originalSourceRowCount": 191,
+        "excludedSourceObservationCount": 0,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "51974a2f5fabb69d7726c3804ea3069f27ca42d9994dde68844629c2bb865b76",
+          "total": 191,
+          "bankRowCount": 191,
+          "uniqueApiInputCount": 191,
+          "sourceContextCount": 191,
+          "fullStoredSourceRows": 191,
+          "excludedSourceObservationCount": 0,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/six-primary-independent-expectations-final32-r2.json",
+              "sha256": "40d11daa6028d607c2b98916adb0b4d72e009237f0a476708ee241f2b4e36d03"
+            },
+            {
+              "file": "reports/review-20261003/six-primary-source-review-final32-r2.json",
+              "sha256": "258710e6b52d932aca86f2590791a2d83b88ed066541b47bad1d2e97f67c8c66"
+            },
+            {
+              "file": "reports/review-20261003/six-primary-source-independent-review-publication-final32.json",
+              "sha256": "ec66760be8eb4ebf6aae699c3658d3e23c72fda54c159ee103cb1998fb893aa6"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/six-primary-independent-source-check-final32-r2.json",
+            "sha256": "1adfa3b80e74c8fe41067e540f5dac40043f148703f12c43b54f98edc186bf29"
+          },
+          "packagingRequirement": "All original source32rows preserved across6artifacts,3753 source-eligible cases plus256 Duke source-ineligible observations. Preserve original expectations and explicit no-approval scope."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "sourceRows": 191,
+          "uniqueApiInputs": 191,
+          "duplicateRows": 0
+        },
+        "sources": [
+          {
+            "primaryReview": {
+              "file": "reports/review-20261003/six-primary-source-review-final32-r2.json",
+              "sha256": "258710e6b52d932aca86f2590791a2d83b88ed066541b47bad1d2e97f67c8c66"
+            },
+            "independentPrimaryReview": {
+              "file": "reports/review-20261003/six-primary-source-independent-review-publication-final32.json",
+              "sha256": "ec66760be8eb4ebf6aae699c3658d3e23c72fda54c159ee103cb1998fb893aa6"
+            },
+            "targetedReading": {
+              "id": "caprini",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4505816/",
+              "additionalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3278061/",
+              "edition": "Reproduced2005 Figure1 in Pannucci primary comparison2011/2012; ACCP2012 Table7 separate edition",
+              "personallyRead": [
+                "Full captured2005Figure1 personally visually read; Pannucci Methods/figurecaption paragraphs personally read",
+                "Full original ACCP2012 HTML Table7 personally read"
+              ],
+              "files": [
+                "six-primary-documents-final32/caprini-2005-figure1-pannucci.jpg",
+                "six-primary-documents-final32/caprini-pannucci-2011-2005-model.html",
+                "six-primary-documents-final32/caprini-accp-2012-table7.html"
+              ],
+              "access": "Own PMC reopens returned captcha. Actual captured NIH Figure1/tableHTML read; original2005 entire article not obtained. Permission for article adaptation is not permission for ELUCENIA.",
+              "supported": "Assigned1/2/3/5factor sums and selected agecode0/1/2/3. Prior major surgery1/multiple trauma5 shown reproduced2005Figure, absent2012Table7.",
+              "excluded": [
+                "Reproduced2005Figure prints41–60/60–74 age60 overlap; ACCP2012 prints41–60/61–74, not silently adjudicated",
+                "Risk/prophylaxis/treatment/clinical eligibility or observation",
+                "2012erratum/full recommendations, instrument/translation reuse permission"
+              ],
+              "sourceArtifacts": [
+                {
+                  "file": "six-primary-documents-final32/caprini-2005-figure1-pannucci.jpg",
+                  "bytes": 70784,
+                  "sha256": "44497b838136654aae0326d99783b8b8521412ba86fba7b3ffc0c9ca180fc9f2"
+                },
+                {
+                  "file": "six-primary-documents-final32/caprini-pannucci-2011-2005-model.html",
+                  "bytes": 183281,
+                  "sha256": "9a1a0999b63529a2062eeaec484775c511cd70d98b4aca427dd14713409e0b70"
+                },
+                {
+                  "file": "six-primary-documents-final32/caprini-accp-2012-table7.html",
+                  "bytes": 4286,
+                  "sha256": "70b6b5084a5192a32dfd8c25859d05c9df466709915f8ca506753cf09b06835a"
+                }
+              ]
+            },
+            "declaredOriginalMethodVersion": "Caprini 2005:RAM 1/2/3/5 pontos; versão clássica cirúrgica; contexto ACCP 2012",
+            "sourceEditionsUnchanged": true,
+            "scope": "191 selected source-assigned1/2/3/5factor plus agecode0/1/2/3 sums. Reproduced2005Figure age60 overlap versus ACCP2012 age61–74 unresolved. No clinical age-cutoff selection, risk bands, prophylaxis, bleeding/application eligibility or reuse/translation permission approval."
+          }
+        ],
+        "evidencePath": "reports/review-20261003/six-primary-independent-source-check-final32-r2.json",
+        "evidenceSha256": "1adfa3b80e74c8fe41067e540f5dac40043f148703f12c43b54f98edc186bf29",
+        "independentPeer": {
+          "evidence": {
+            "file": "reports/review-20261003/six-primary-independent-peer-publication-final32.json",
+            "sha256": "cdf78c30cbcf97b22551c7177639b6480fb6ceb271ab76d0eeb1330830b356b1"
+          },
+          "status": "passed-scoped-mathematical",
+          "packagingPeer": "pending",
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/caprini/calculator.js",
+            "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/caprini/calculator.js",
+            "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/caprini/calculator.js",
+            "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+          }
+        ],
+        "qualifications": [
+          "191 selected source-assigned1/2/3/5factor plus agecode0/1/2/3 sums. Reproduced2005Figure age60 overlap versus ACCP2012 age61–74 unresolved. No clinical age-cutoff selection, risk bands, prophylaxis, bleeding/application eligibility or reuse/translation permission approval.",
+          "Strict integer/boolean/source-class equality; only DAS28 continuous fields retain the original16EPS×max(1,abs reference) criterion. None of the862 historical fixture expected values or tolerances are amended.",
+          "All original4009 rows are retained across6 complete artifacts:3753 eligible numeric/predicate witnesses and256 expressly unapproved Duke surgical+imaging observations. Only3753 count toward independent source scenarios.",
+          "Original3039 failed source-check assertions and69 strict APACHE mortality parity differences remain in the immutable original report. R2repairs66 diagnosis encodings without changing expected mathematics; R2mortality87differences remain unscoped/unapproved.",
+          "Own primary-table constants and4378 expectations were persisted before any engine/Western expectation imports; own39402Node/VM/Chromium executions passed selected scope. This package stage separately replays Node/VM and binds earlier actual Chromium observations.",
+          "No diagnosis, acquisition rubric, mortality/prognostic outcome, clinical cutoff/age60 resolution, risk/prophylaxis decision, instrument/right/translation authorization, professional language or full-method conformity approval.",
+          "Prospective source28/29/30/31 recipes own other evidence leaves. Compose only declared leaves and additive helper fragments, then recompute sums/identities; do not replace whole old catalogs."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+    },
+    "limits": "Esta implementação usa os pesos do Caprini 2005, não uma edição posterior. A diretriz ACCP 2012 o aplica à avaliação de tromboembolismo em cirurgia geral e abdominopélvica não ortopédica; as coortes cirúrgicas citadas não demonstram validade universal em crianças ou em pacientes clínicos. No estudo de Bahl 2010, o desfecho foi tromboembolismo até 30 dias após cirurgia, não risco vitalício. A escolha de profilaxia exige também avaliar sangramento e o contexto da operação; o escore não determina, sozinho, medicamento ou duração.",
+    "limitsEvidence": {
+      "status": "specific-primary-guideline-sections-and-original-abstract-read",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3278061/",
+          "edition": "ACCP2012,nonorthopedic surgical patients",
+          "readScope": "Direct guideline:target populations3.1, validation paragraphs and recommendations3.6.1–3.6.10; full guideline not read."
+        },
+        {
+          "url": "https://doi.org/10.1097/SLA.0b013e3181b7fca6",
+          "edition": "Bahl2010",
+          "readScope": "Exact cached original abstract fully read:8216 surgical inpatients,30day postoperative VTE."
+        },
+        {
+          "url": "https://doi.org/10.1016/j.disamonth.2005.02.003",
+          "edition": "Caprini2005",
+          "readScope": "Identity only; full original version not read."
+        }
+      ],
+      "populationScope": "Nonorthopedic surgical risk assessment; validation cohorts are not a universal clinical population.",
+      "remainingChecks": [
+        "Original2005 full instrument and rights not newly verified.",
+        "No universal pediatric/medical/orthopedic applicability established."
+      ],
+      "clinicalValidation": "not-performed",
+      "professionalLanguageReview": "not-performed",
+      "rightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/caprini/calculator.js",
+    "bytes": 8050,
+    "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "22007f44c4a40089ae6a8e88cd34b16ab42e08df7c705a3ea07e38100989f2e4",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "7e66ae71f4300958705c65dbb4c42dda29892a4823ec27a53a962918c12f7c73",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "7e66ae71f4300958705c65dbb4c42dda29892a4823ec27a53a962918c12f7c73",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

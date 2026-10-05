@@ -1,0 +1,486 @@
+{
+  "id": "caprini",
+  "at": "2026-10-05T17:29:08.855Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/caprini/calculator.js",
+    "bytes": 8050,
+    "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+  },
+  "cases": [
+    {
+      "name": "35 anos, sem fatores: 0, risco muito baixo",
+      "input": {
+        "idade": "0",
+        "cir_menor": false,
+        "cir_maior_prev": false,
+        "varizes": false,
+        "dii": false,
+        "edema": false,
+        "obesidade": false,
+        "iam": false,
+        "icc": false,
+        "sepse": false,
+        "pulmonar": false,
+        "dpoc": false,
+        "repouso": false,
+        "hormonio": false,
+        "gestacao": false,
+        "obst": false,
+        "artroscopia": false,
+        "cancer": false,
+        "cir_maior": false,
+        "laparoscopia": false,
+        "acamado": false,
+        "gesso": false,
+        "cvc": false,
+        "tev_prev": false,
+        "hf_trombose": false,
+        "fvl": false,
+        "protrombina": false,
+        "lupico": false,
+        "anticardiolipina": false,
+        "homocisteina": false,
+        "hit": false,
+        "trombofilia": false,
+        "artroplastia": false,
+        "fratura": false,
+        "avc": false,
+        "politrauma": false,
+        "medular": false
+      },
+      "obtained": {
+        "id": "caprini",
+        "main": [
+          "0",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 0,
+          "obtained": 0,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 0,
+          "obtained": 0,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "0",
+          "obtained": "0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "45 anos, cirurgia menor: 2, risco baixo",
+      "input": {
+        "idade": "1",
+        "cir_menor": true,
+        "cir_maior_prev": false,
+        "varizes": false,
+        "dii": false,
+        "edema": false,
+        "obesidade": false,
+        "iam": false,
+        "icc": false,
+        "sepse": false,
+        "pulmonar": false,
+        "dpoc": false,
+        "repouso": false,
+        "hormonio": false,
+        "gestacao": false,
+        "obst": false,
+        "artroscopia": false,
+        "cancer": false,
+        "cir_maior": false,
+        "laparoscopia": false,
+        "acamado": false,
+        "gesso": false,
+        "cvc": false,
+        "tev_prev": false,
+        "hf_trombose": false,
+        "fvl": false,
+        "protrombina": false,
+        "lupico": false,
+        "anticardiolipina": false,
+        "homocisteina": false,
+        "hit": false,
+        "trombofilia": false,
+        "artroplastia": false,
+        "fratura": false,
+        "avc": false,
+        "politrauma": false,
+        "medular": false
+      },
+      "obtained": {
+        "id": "caprini",
+        "main": [
+          "2",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "raw": {
+          "score": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 2,
+          "obtained": 2,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 2,
+          "obtained": 2,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "2",
+          "obtained": "2",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+      "input": {
+        "idade": "2",
+        "cir_maior": true,
+        "cir_menor": false,
+        "cir_maior_prev": false,
+        "varizes": false,
+        "dii": false,
+        "edema": false,
+        "obesidade": false,
+        "iam": false,
+        "icc": false,
+        "sepse": false,
+        "pulmonar": false,
+        "dpoc": false,
+        "repouso": false,
+        "hormonio": false,
+        "gestacao": false,
+        "obst": false,
+        "artroscopia": false,
+        "cancer": false,
+        "laparoscopia": false,
+        "acamado": false,
+        "gesso": false,
+        "cvc": false,
+        "tev_prev": false,
+        "hf_trombose": false,
+        "fvl": false,
+        "protrombina": false,
+        "lupico": false,
+        "anticardiolipina": false,
+        "homocisteina": false,
+        "hit": false,
+        "trombofilia": false,
+        "artroplastia": false,
+        "fratura": false,
+        "avc": false,
+        "politrauma": false,
+        "medular": false
+      },
+      "obtained": {
+        "id": "caprini",
+        "main": [
+          "4",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "raw": {
+          "score": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 4,
+          "obtained": 4,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 4,
+          "obtained": 4,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "4",
+          "obtained": "4",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+      "input": {
+        "idade": "2",
+        "cancer": true,
+        "cir_maior": true,
+        "cir_menor": false,
+        "cir_maior_prev": false,
+        "varizes": false,
+        "dii": false,
+        "edema": false,
+        "obesidade": false,
+        "iam": false,
+        "icc": false,
+        "sepse": false,
+        "pulmonar": false,
+        "dpoc": false,
+        "repouso": false,
+        "hormonio": false,
+        "gestacao": false,
+        "obst": false,
+        "artroscopia": false,
+        "laparoscopia": false,
+        "acamado": false,
+        "gesso": false,
+        "cvc": false,
+        "tev_prev": false,
+        "hf_trombose": false,
+        "fvl": false,
+        "protrombina": false,
+        "lupico": false,
+        "anticardiolipina": false,
+        "homocisteina": false,
+        "hit": false,
+        "trombofilia": false,
+        "artroplastia": false,
+        "fratura": false,
+        "avc": false,
+        "politrauma": false,
+        "medular": false
+      },
+      "obtained": {
+        "id": "caprini",
+        "main": [
+          "6",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "raw": {
+          "score": 6
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 6,
+          "obtained": 6,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 6,
+          "obtained": 6,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "6",
+          "obtained": "6",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 43,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

@@ -1,0 +1,88 @@
+{
+  "id": "caprini",
+  "repository": "Elucenia/tool-caprini",
+  "branch": "main",
+  "commit": "936231902e854490ab04a793233695212e4271da",
+  "archiveSha256": "ec38adc5b96e469b9f9a28dceedb58e8bfee66b65d63249373f676ae3441d08b",
+  "protectedFiles": [
+    {
+      "path": ".gitattributes",
+      "type": "blob",
+      "mode": "100644",
+      "size": 19,
+      "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 279,
+      "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
+      "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 42,
+      "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
+      "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
+    },
+    {
+      "path": "AUTHORSHIP.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3235,
+      "sha": "a6bbfab08c8623d2251977e37b02b6712871bf40",
+      "sha256": "f869c33220483de67d5a630e73f2a0c607ea63a01281523c6af18ec43915eb67"
+    },
+    {
+      "path": "CITATION.cff",
+      "type": "blob",
+      "mode": "100644",
+      "size": 860,
+      "sha": "d93bf22c250efb5673bdfd8c8fb32a3e3083a4d9",
+      "sha256": "77a2178eabf613b89b5f250f22fd30fb01a60ae136949462c520ef93b99f0855"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1458,
+      "sha": "8bb825cbeec0e95c8b02ce91d40a17a5849a0031",
+      "sha256": "45cc1b1c711bdf98f275484b020e985b218c23c1fa3a62dd4db773af97c05b8d"
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11358,
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1591,
+      "sha": "35cac1328e261672b51e7c2777303102544ae0f1",
+      "sha256": "3ededb55254c93e337af3ad9ead322aaa1baffef2981372f8b8decee6dff6d97"
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 894,
+      "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
+      "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
+    }
+  ],
+  "receipt": {
+    "file": "reports/review-20261005-completion/native190-protected-remote-baseline-r1.json",
+    "bytes": 6066154,
+    "sha256": "ec8bac70e5a6eed7fb742c319c4e68344eea5713350fa16b9d9bf48e014a9a88"
+  },
+  "remoteCodeExecuted": false,
+  "freshBranchReadRequiredBeforePublication": true
+}

@@ -1,68 +1,288 @@
 [
   {
-    "label": "35 anos, sem fatores: 0, risco muito baixo",
-    "input": {
+    "id": "caprini",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "35 anos, sem fatores: 0, risco muito baixo",
+    "originalInput": {
       "idade": "0"
+    },
+    "input": {
+      "idade": "0",
+      "cir_menor": false,
+      "cir_maior_prev": false,
+      "varizes": false,
+      "dii": false,
+      "edema": false,
+      "obesidade": false,
+      "iam": false,
+      "icc": false,
+      "sepse": false,
+      "pulmonar": false,
+      "dpoc": false,
+      "repouso": false,
+      "hormonio": false,
+      "gestacao": false,
+      "obst": false,
+      "artroscopia": false,
+      "cancer": false,
+      "cir_maior": false,
+      "laparoscopia": false,
+      "acamado": false,
+      "gesso": false,
+      "cvc": false,
+      "tev_prev": false,
+      "hf_trombose": false,
+      "fvl": false,
+      "protrombina": false,
+      "lupico": false,
+      "anticardiolipina": false,
+      "homocisteina": false,
+      "hit": false,
+      "trombofilia": false,
+      "artroplastia": false,
+      "fratura": false,
+      "avc": false,
+      "politrauma": false,
+      "medular": false
     },
     "expected": {
       "score": 0,
       "level": "low",
       "verdict": "muito baixo"
     },
-    "originalInput": {
-      "idade": "0"
+    "recordedResult": {
+      "main": [
+        "0",
+        "pontos"
+      ],
+      "label": "Escore de Caprini",
+      "raw": {
+        "score": 0
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "45 anos, cirurgia menor: 2, risco baixo",
-    "input": {
+    "id": "caprini",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "45 anos, cirurgia menor: 2, risco baixo",
+    "originalInput": {
       "idade": "1",
       "cir_menor": true
+    },
+    "input": {
+      "idade": "1",
+      "cir_menor": true,
+      "cir_maior_prev": false,
+      "varizes": false,
+      "dii": false,
+      "edema": false,
+      "obesidade": false,
+      "iam": false,
+      "icc": false,
+      "sepse": false,
+      "pulmonar": false,
+      "dpoc": false,
+      "repouso": false,
+      "hormonio": false,
+      "gestacao": false,
+      "obst": false,
+      "artroscopia": false,
+      "cancer": false,
+      "cir_maior": false,
+      "laparoscopia": false,
+      "acamado": false,
+      "gesso": false,
+      "cvc": false,
+      "tev_prev": false,
+      "hf_trombose": false,
+      "fvl": false,
+      "protrombina": false,
+      "lupico": false,
+      "anticardiolipina": false,
+      "homocisteina": false,
+      "hit": false,
+      "trombofilia": false,
+      "artroplastia": false,
+      "fratura": false,
+      "avc": false,
+      "politrauma": false,
+      "medular": false
     },
     "expected": {
       "score": 2,
       "level": "low",
       "verdict": "baixo"
     },
-    "originalInput": {
-      "idade": "1",
-      "cir_menor": true
+    "recordedResult": {
+      "main": [
+        "2",
+        "pontos"
+      ],
+      "label": "Escore de Caprini",
+      "raw": {
+        "score": 2
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
-    "input": {
+    "id": "caprini",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+    "originalInput": {
       "idade": "2",
       "cir_maior": true
+    },
+    "input": {
+      "idade": "2",
+      "cir_maior": true,
+      "cir_menor": false,
+      "cir_maior_prev": false,
+      "varizes": false,
+      "dii": false,
+      "edema": false,
+      "obesidade": false,
+      "iam": false,
+      "icc": false,
+      "sepse": false,
+      "pulmonar": false,
+      "dpoc": false,
+      "repouso": false,
+      "hormonio": false,
+      "gestacao": false,
+      "obst": false,
+      "artroscopia": false,
+      "cancer": false,
+      "laparoscopia": false,
+      "acamado": false,
+      "gesso": false,
+      "cvc": false,
+      "tev_prev": false,
+      "hf_trombose": false,
+      "fvl": false,
+      "protrombina": false,
+      "lupico": false,
+      "anticardiolipina": false,
+      "homocisteina": false,
+      "hit": false,
+      "trombofilia": false,
+      "artroplastia": false,
+      "fratura": false,
+      "avc": false,
+      "politrauma": false,
+      "medular": false
     },
     "expected": {
       "score": 4,
       "level": "mid"
     },
-    "originalInput": {
-      "idade": "2",
-      "cir_maior": true
+    "recordedResult": {
+      "main": [
+        "4",
+        "pontos"
+      ],
+      "label": "Escore de Caprini",
+      "raw": {
+        "score": 4
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
-    "input": {
+    "id": "caprini",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+    "originalInput": {
       "idade": "2",
       "cancer": true,
       "cir_maior": true
+    },
+    "input": {
+      "idade": "2",
+      "cancer": true,
+      "cir_maior": true,
+      "cir_menor": false,
+      "cir_maior_prev": false,
+      "varizes": false,
+      "dii": false,
+      "edema": false,
+      "obesidade": false,
+      "iam": false,
+      "icc": false,
+      "sepse": false,
+      "pulmonar": false,
+      "dpoc": false,
+      "repouso": false,
+      "hormonio": false,
+      "gestacao": false,
+      "obst": false,
+      "artroscopia": false,
+      "laparoscopia": false,
+      "acamado": false,
+      "gesso": false,
+      "cvc": false,
+      "tev_prev": false,
+      "hf_trombose": false,
+      "fvl": false,
+      "protrombina": false,
+      "lupico": false,
+      "anticardiolipina": false,
+      "homocisteina": false,
+      "hit": false,
+      "trombofilia": false,
+      "artroplastia": false,
+      "fratura": false,
+      "avc": false,
+      "politrauma": false,
+      "medular": false
     },
     "expected": {
       "score": 6,
       "level": "high"
     },
-    "originalInput": {
-      "idade": "2",
-      "cancer": true,
-      "cir_maior": true
+    "recordedResult": {
+      "main": [
+        "6",
+        "pontos"
+      ],
+      "label": "Escore de Caprini",
+      "raw": {
+        "score": 6
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]
