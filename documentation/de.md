@@ -210,3 +210,35 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Sehr niedriges VTE-Risiko (< 0,5%)
+
+Frühmobilisation; keine spezifische pharmakologische oder mechanische Prophylaxe.
+
+
+### 2
+
+Niedriges VTE-Risiko (~1,5%)
+
+Mechanische Prophylaxe, vorzugsweise intermittierende pneumatische Kompression.
+
+
+### 3
+
+Mäßiges VTE-Risiko (~3,0 %)
+
+NMH oder unfraktioniertes Heparin in niedriger Dosis; mechanische Prophylaxe bei hohem Blutungsrisiko.
+
+
+### 4
+
+Hohes VTE-Risiko (~6,0 %)
+
+NMH oder unfraktioniertes Heparin in niedriger Dosis in Kombination mit mechanischer Prophylaxe (Strümpfe oder pneumatische Kompression).
+

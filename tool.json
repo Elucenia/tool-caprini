@@ -465,7 +465,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Caprini 2005:RAM 1/2/3/5 pontos; versão clássica cirúrgica; contexto ACCP 2012",
-    "implementationVersion": "caprini@native-2026-10-03+a117518727dc",
+    "implementationVersion": "caprini@native-2026-10-05+50b15e73e1bd",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/15900257/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -961,7 +961,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+      "implementationHash": "50b15e73e1bde45035f067e87cb12d46574f03f243c707f134f6183f69bc660b",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "caprini@native-2026-10-03+a117518727dc",
+          "previousImplementationHash": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf",
+          "implementationHash": "50b15e73e1bde45035f067e87cb12d46574f03f243c707f134f6183f69bc660b",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "60c3b707fe83ec7a77e7e682d78759732dd7486bd607246b2688caeb633adc8a",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Esta implementação usa os pesos do Caprini 2005, não uma edição posterior. A diretriz ACCP 2012 o aplica à avaliação de tromboembolismo em cirurgia geral e abdominopélvica não ortopédica; as coortes cirúrgicas citadas não demonstram validade universal em crianças ou em pacientes clínicos. No estudo de Bahl 2010, o desfecho foi tromboembolismo até 30 dias após cirurgia, não risco vitalício. A escolha de profilaxia exige também avaliar sangramento e o contexto da operação; o escore não determina, sozinho, medicamento ou duração.",
     "limitsEvidence": {
@@ -996,20 +1024,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/caprini/calculator.js",
-    "bytes": 8050,
-    "sha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf"
+    "bytes": 8255,
+    "sha256": "50b15e73e1bde45035f067e87cb12d46574f03f243c707f134f6183f69bc660b"
   },
-  "sourceToolSha256": "22007f44c4a40089ae6a8e88cd34b16ab42e08df7c705a3ea07e38100989f2e4",
+  "sourceToolSha256": "056260c56beac175457e2e206cf3eeebe5013e530f3070764a2cd7226aff4458",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "7e66ae71f4300958705c65dbb4c42dda29892a4823ec27a53a962918c12f7c73",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "7e66ae71f4300958705c65dbb4c42dda29892a4823ec27a53a962918c12f7c73",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

@@ -210,3 +210,35 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Riesgo muy bajo de TEV (< 0,5%)
+
+Deambulación precoz; sin profilaxis farmacológica ni mecánica específica.
+
+
+### 2
+
+Riesgo bajo de TEV (~1,5%)
+
+Profilaxis mecánica, preferentemente compresión neumática intermitente.
+
+
+### 3
+
+Riesgo moderado de TEV (~3,0%)
+
+HBPM o heparina no fraccionada a dosis baja; profilaxis mecánica si el riesgo de sangrado es alto.
+
+
+### 4
+
+Riesgo alto de TEV (~6,0%)
+
+HBPM o heparina no fraccionada a dosis baja asociada a profilaxis mecánica (medias o compresión neumática).
+

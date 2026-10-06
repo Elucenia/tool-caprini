@@ -210,3 +210,35 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Rischio molto basso di TEV (< 0,5%)
+
+Deambulazione precoce; nessuna profilassi farmacologica o meccanica specifica.
+
+
+### 2
+
+Rischio basso di TEV (~1,5%)
+
+Profilassi meccanica, preferibilmente compressione pneumatica intermittente.
+
+
+### 3
+
+Rischio moderato di TEV (~3,0%)
+
+EBPM o eparina non frazionata a basse dosi; profilassi meccanica se il rischio di sanguinamento è alto.
+
+
+### 4
+
+Rischio alto di TEV (~6,0%)
+
+EBPM o eparina non frazionata a basse dosi associata a profilassi meccanica (calze o compressione pneumatica).
+

@@ -1,0 +1,358 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "caprini",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "5fa4ed94772d0fe62f41667ae3432efc1cb8a9c1",
+    "oldEngineSha256": "a117518727dc5094f4596d715ce58d06d2c7c3260bc2d997d280c389e42bc5bf",
+    "currentEngineSha256": "50b15e73e1bde45035f067e87cb12d46574f03f243c707f134f6183f69bc660b"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "35 anos, sem fatores: 0, risco muito baixo",
+      "input": {
+        "idade": "0",
+        "cir_menor": false,
+        "cir_maior_prev": false,
+        "varizes": false,
+        "dii": false,
+        "edema": false,
+        "obesidade": false,
+        "iam": false,
+        "icc": false,
+        "sepse": false,
+        "pulmonar": false,
+        "dpoc": false,
+        "repouso": false,
+        "hormonio": false,
+        "gestacao": false,
+        "obst": false,
+        "artroscopia": false,
+        "cancer": false,
+        "cir_maior": false,
+        "laparoscopia": false,
+        "acamado": false,
+        "gesso": false,
+        "cvc": false,
+        "tev_prev": false,
+        "hf_trombose": false,
+        "fvl": false,
+        "protrombina": false,
+        "lupico": false,
+        "anticardiolipina": false,
+        "homocisteina": false,
+        "hit": false,
+        "trombofilia": false,
+        "artroplastia": false,
+        "fratura": false,
+        "avc": false,
+        "politrauma": false,
+        "medular": false
+      },
+      "publicOutput": {
+        "id": "caprini",
+        "main": [
+          "0",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 0,
+        "level": "low",
+        "verdict": "muito baixo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "level": "low",
+        "verdict": "Risco muito baixo de TEV (&lt; 0,5%)",
+        "note": "Deambulação precoce; sem profilaxia farmacológica ou mecânica específica.",
+        "raw": {
+          "score": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "45 anos, cirurgia menor: 2, risco baixo",
+      "input": {
+        "idade": "1",
+        "cir_menor": true,
+        "cir_maior_prev": false,
+        "varizes": false,
+        "dii": false,
+        "edema": false,
+        "obesidade": false,
+        "iam": false,
+        "icc": false,
+        "sepse": false,
+        "pulmonar": false,
+        "dpoc": false,
+        "repouso": false,
+        "hormonio": false,
+        "gestacao": false,
+        "obst": false,
+        "artroscopia": false,
+        "cancer": false,
+        "cir_maior": false,
+        "laparoscopia": false,
+        "acamado": false,
+        "gesso": false,
+        "cvc": false,
+        "tev_prev": false,
+        "hf_trombose": false,
+        "fvl": false,
+        "protrombina": false,
+        "lupico": false,
+        "anticardiolipina": false,
+        "homocisteina": false,
+        "hit": false,
+        "trombofilia": false,
+        "artroplastia": false,
+        "fratura": false,
+        "avc": false,
+        "politrauma": false,
+        "medular": false
+      },
+      "publicOutput": {
+        "id": "caprini",
+        "main": [
+          "2",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "raw": {
+          "score": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 2,
+        "level": "low",
+        "verdict": "baixo"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "level": "low",
+        "verdict": "Risco baixo de TEV (~1,5%)",
+        "note": "Profilaxia mecânica, de preferência compressão pneumática intermitente.",
+        "raw": {
+          "score": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+      "input": {
+        "idade": "2",
+        "cir_maior": true,
+        "cir_menor": false,
+        "cir_maior_prev": false,
+        "varizes": false,
+        "dii": false,
+        "edema": false,
+        "obesidade": false,
+        "iam": false,
+        "icc": false,
+        "sepse": false,
+        "pulmonar": false,
+        "dpoc": false,
+        "repouso": false,
+        "hormonio": false,
+        "gestacao": false,
+        "obst": false,
+        "artroscopia": false,
+        "cancer": false,
+        "laparoscopia": false,
+        "acamado": false,
+        "gesso": false,
+        "cvc": false,
+        "tev_prev": false,
+        "hf_trombose": false,
+        "fvl": false,
+        "protrombina": false,
+        "lupico": false,
+        "anticardiolipina": false,
+        "homocisteina": false,
+        "hit": false,
+        "trombofilia": false,
+        "artroplastia": false,
+        "fratura": false,
+        "avc": false,
+        "politrauma": false,
+        "medular": false
+      },
+      "publicOutput": {
+        "id": "caprini",
+        "main": [
+          "4",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "raw": {
+          "score": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 4,
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "level": "mid",
+        "verdict": "Risco moderado de TEV (~3,0%)",
+        "note": "HBPM ou heparina não fracionada em dose baixa; profilaxia mecânica se o risco de sangramento for alto.",
+        "raw": {
+          "score": 4
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+      "input": {
+        "idade": "2",
+        "cancer": true,
+        "cir_maior": true,
+        "cir_menor": false,
+        "cir_maior_prev": false,
+        "varizes": false,
+        "dii": false,
+        "edema": false,
+        "obesidade": false,
+        "iam": false,
+        "icc": false,
+        "sepse": false,
+        "pulmonar": false,
+        "dpoc": false,
+        "repouso": false,
+        "hormonio": false,
+        "gestacao": false,
+        "obst": false,
+        "artroscopia": false,
+        "laparoscopia": false,
+        "acamado": false,
+        "gesso": false,
+        "cvc": false,
+        "tev_prev": false,
+        "hf_trombose": false,
+        "fvl": false,
+        "protrombina": false,
+        "lupico": false,
+        "anticardiolipina": false,
+        "homocisteina": false,
+        "hit": false,
+        "trombofilia": false,
+        "artroplastia": false,
+        "fratura": false,
+        "avc": false,
+        "politrauma": false,
+        "medular": false
+      },
+      "publicOutput": {
+        "id": "caprini",
+        "main": [
+          "6",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "raw": {
+          "score": 6
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 6,
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "6",
+          "pontos"
+        ],
+        "label": "Escore de Caprini",
+        "level": "high",
+        "verdict": "Risco alto de TEV (~6,0%)",
+        "note": "HBPM ou heparina não fracionada em dose baixa associada a profilaxia mecânica (meias ou compressão pneumática).",
+        "raw": {
+          "score": 6
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

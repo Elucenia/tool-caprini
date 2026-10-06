@@ -210,3 +210,35 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Risque très faible de TEV (< 0,5%)
+
+Mobilisation précoce ; pas de prophylaxie pharmacologique ou mécanique spécifique.
+
+
+### 2
+
+Risque faible de TEV (~1,5%)
+
+Prophylaxie mécanique, de préférence compression pneumatique intermittente.
+
+
+### 3
+
+Risque modéré de TEV (~3,0 %)
+
+HBPM ou héparine non fractionnée à faible dose ; prophylaxie mécanique si le risque de saignement est élevé.
+
+
+### 4
+
+Risque élevé de TEV (~6,0 %)
+
+HBPM ou héparine non fractionnée à faible dose associée à une prophylaxie mécanique (bas ou compression pneumatique).
+

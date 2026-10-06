@@ -1,0 +1,707 @@
+{
+  "id": "caprini",
+  "implementationVersion": "caprini@native-2026-10-05+50b15e73e1bd",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risco muito baixo de TEV (< 0,5%)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Deambulação precoce; sem profilaxia farmacológica ou mecânica específica.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risco baixo de TEV (~1,5%)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Profilaxia mecânica, de preferência compressão pneumática intermitente.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risco moderado de TEV (~3,0%)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "HBPM ou heparina não fracionada em dose baixa; profilaxia mecânica se o risco de sangramento for alto.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risco alto de TEV (~6,0%)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "HBPM ou heparina não fracionada em dose baixa associada a profilaxia mecânica (meias ou compressão pneumática).",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Very low risk of VTE (< 0,5%)",
+            "locale": "en",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "Early ambulation; no specific pharmacological or mechanical prophylaxis.",
+            "locale": "en",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Low VTE risk (~1,5%)",
+            "locale": "en",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "Mechanical prophylaxis, preferably intermittent pneumatic compression.",
+            "locale": "en",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate VTE risk (~3.0%)",
+            "locale": "en",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "LMWH or low-dose unfractionated heparin; mechanical prophylaxis if bleeding risk is high.",
+            "locale": "en",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "High VTE risk (~6.0%)",
+            "locale": "en",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "LMWH or low-dose unfractionated heparin combined with mechanical prophylaxis (stockings or pneumatic compression).",
+            "locale": "en",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Riesgo muy bajo de TEV (< 0,5%)",
+            "locale": "es",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "Deambulación precoz; sin profilaxis farmacológica ni mecánica específica.",
+            "locale": "es",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Riesgo bajo de TEV (~1,5%)",
+            "locale": "es",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "Profilaxis mecánica, preferentemente compresión neumática intermitente.",
+            "locale": "es",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Riesgo moderado de TEV (~3,0%)",
+            "locale": "es",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "HBPM o heparina no fraccionada a dosis baja; profilaxis mecánica si el riesgo de sangrado es alto.",
+            "locale": "es",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Riesgo alto de TEV (~6,0%)",
+            "locale": "es",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "HBPM o heparina no fraccionada a dosis baja asociada a profilaxis mecánica (medias o compresión neumática).",
+            "locale": "es",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risque très faible de TEV (< 0,5%)",
+            "locale": "fr",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "Mobilisation précoce ; pas de prophylaxie pharmacologique ou mécanique spécifique.",
+            "locale": "fr",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risque faible de TEV (~1,5%)",
+            "locale": "fr",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "Prophylaxie mécanique, de préférence compression pneumatique intermittente.",
+            "locale": "fr",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risque modéré de TEV (~3,0 %)",
+            "locale": "fr",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "HBPM ou héparine non fractionnée à faible dose ; prophylaxie mécanique si le risque de saignement est élevé.",
+            "locale": "fr",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Risque élevé de TEV (~6,0 %)",
+            "locale": "fr",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "HBPM ou héparine non fractionnée à faible dose associée à une prophylaxie mécanique (bas ou compression pneumatique).",
+            "locale": "fr",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Sehr niedriges VTE-Risiko (< 0,5%)",
+            "locale": "de",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "Frühmobilisation; keine spezifische pharmakologische oder mechanische Prophylaxe.",
+            "locale": "de",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Niedriges VTE-Risiko (~1,5%)",
+            "locale": "de",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "Mechanische Prophylaxe, vorzugsweise intermittierende pneumatische Kompression.",
+            "locale": "de",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßiges VTE-Risiko (~3,0 %)",
+            "locale": "de",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "NMH oder unfraktioniertes Heparin in niedriger Dosis; mechanische Prophylaxe bei hohem Blutungsrisiko.",
+            "locale": "de",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Hohes VTE-Risiko (~6,0 %)",
+            "locale": "de",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "NMH oder unfraktioniertes Heparin in niedriger Dosis in Kombination mit mechanischer Prophylaxe (Strümpfe oder pneumatische Kompression).",
+            "locale": "de",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rischio molto basso di TEV (< 0,5%)",
+            "locale": "it",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "Deambulazione precoce; nessuna profilassi farmacologica o meccanica specifica.",
+            "locale": "it",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rischio basso di TEV (~1,5%)",
+            "locale": "it",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "Profilassi meccanica, preferibilmente compressione pneumatica intermittente.",
+            "locale": "it",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rischio moderato di TEV (~3,0%)",
+            "locale": "it",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "EBPM o eparina non frazionata a basse dosi; profilassi meccanica se il rischio di sanguinamento è alto.",
+            "locale": "it",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Rischio alto di TEV (~6,0%)",
+            "locale": "it",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "EBPM o eparina non frazionata a basse dosi associata a profilassi meccanica (calze o compressione pneumatica).",
+            "locale": "it",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خطر منخفض جدًا للـ TEV (< 0,5%)",
+            "locale": "ar",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "التحريك المبكر؛ دون وقاية دوائية أو ميكانيكية محددة.",
+            "locale": "ar",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خطر منخفض للـ TEV (~1,5%)",
+            "locale": "ar",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "الوقاية الميكانيكية، ويفضَّل الضغط الهوائي المتقطع.",
+            "locale": "ar",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خطر متوسط لـ TEV (~3,0%)",
+            "locale": "ar",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "الهيبارين منخفض الوزن الجزيئي أو الهيبارين غير المجزأ بجرعة منخفضة؛ الوقاية الميكانيكية إذا كان خطر النزف مرتفعًا.",
+            "locale": "ar",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "خطر مرتفع لـ TEV (~6,0%)",
+            "locale": "ar",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "الهيبارين منخفض الوزن الجزيئي أو الهيبارين غير المجزأ بجرعة منخفضة مع الوقاية الميكانيكية (جوارب أو ضغط هوائي).",
+            "locale": "ar",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "VTE风险极低（< 0,5%）",
+            "locale": "zh",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "早期下床活动；无特异性药物或机械预防。",
+            "locale": "zh",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "VTE风险低（~1,5%）",
+            "locale": "zh",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "机械预防，最好采用间歇性气动加压。",
+            "locale": "zh",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "TEV 中度风险（~3.0%）",
+            "locale": "zh",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "低分子肝素或低剂量普通肝素；若出血风险高，则采用机械预防。",
+            "locale": "zh",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "TEV 高度风险（~6.0%）",
+            "locale": "zh",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "低分子肝素或低剂量普通肝素联合机械预防（弹力袜或气动加压）。",
+            "locale": "zh",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "VTEのリスクは非常に低い（< 0,5%）",
+            "locale": "ja",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "早期離床；特異的な薬物または機械的予防は行わない。",
+            "locale": "ja",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "VTEのリスクは低い（~1,5%）",
+            "locale": "ja",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "機械的予防、できれば間欠的空気圧迫。",
+            "locale": "ja",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "TEV の中等度リスク（~3.0%）",
+            "locale": "ja",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "低分子ヘパリンまたは低用量未分画ヘパリン；出血リスクが高い場合は機械的予防。",
+            "locale": "ja",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "TEV の高リスク（~6.0%）",
+            "locale": "ja",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "低分子ヘパリンまたは低用量未分画ヘパリンを機械的予防（弾性ストッキングまたは空気圧迫）と併用。",
+            "locale": "ja",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "35 anos, sem fatores: 0, risco muito baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "VTE का जोखिम बहुत कम (< 0,5%)",
+            "locale": "hi",
+            "template": "documented-authored-5c257cae753631946b98"
+          },
+          "note": {
+            "text": "शीघ्र चलना-फिरना; कोई विशिष्ट औषधीय या यांत्रिक प्रोफिलैक्सिस नहीं।",
+            "locale": "hi",
+            "template": "documented-authored-e086319a5d79f7eb88f5"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "45 anos, cirurgia menor: 2, risco baixo",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "VTE का जोखिम कम (~1,5%)",
+            "locale": "hi",
+            "template": "documented-authored-72d0b68bc4e152bfaad9"
+          },
+          "note": {
+            "text": "यांत्रिक प्रोफिलैक्सिस, अधिमानतः इंटरमिटेंट न्यूमैटिक कंप्रेशन.",
+            "locale": "hi",
+            "template": "documented-authored-74a68727ecd36a0ba7b4"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "65 anos, cirurgia aberta de grande porte: 4, risco moderado",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "TEV का मध्यम जोखिम (~3.0%)",
+            "locale": "hi",
+            "template": "documented-authored-14e987e966469577fd3e"
+          },
+          "note": {
+            "text": "LMWH या कम खुराक अनफ्रैक्शनटेड हेपारिन; यदि रक्तस्राव का जोखिम अधिक हो तो यांत्रिक प्रोफिलैक्सिस.",
+            "locale": "hi",
+            "template": "documented-authored-dbad1dac02232099e460"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "70 anos, câncer e cirurgia de grande porte: 6, risco alto",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "TEV का उच्च जोखिम (~6.0%)",
+            "locale": "hi",
+            "template": "documented-authored-2f9213d37d90d2b15045"
+          },
+          "note": {
+            "text": "LMWH या कम खुराक अनफ्रैक्शनटेड हेपारिन को यांत्रिक प्रोफिलैक्सिस (स्टॉकिंग्स या न्यूमैटिक कंप्रेशन) के साथ जोड़ें.",
+            "locale": "hi",
+            "template": "documented-authored-491b64377f2ef0af36d8"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}
